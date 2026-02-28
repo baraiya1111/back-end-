@@ -3,7 +3,7 @@
 // Recursive function to find the Fibonacci number at position 'n'
 int fibonacciRecursive(int n) {
     if (n <= 1)
-        return n; // Base cases: fib(0)=0, fib(1)=1
+        return n;
     return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
 }
 
